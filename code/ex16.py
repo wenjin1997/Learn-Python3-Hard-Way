@@ -2,9 +2,9 @@ from sys import argv
 
 script, filename = argv
 
-print("We're going to erase %r." % filename)
+print("We're going to erase {filename}.")
 print("If you don't want that, hit CTRL-C (^C).")
-print("If you do want that,hit RETURN.")
+print("If you do want that, hit RETURN.")
 
 input("?")
 
@@ -29,5 +29,5 @@ target.write("\n")
 target.write(line3)
 target.write("\n")
 
-print("And finally,we close it.")
+print("And finally, we close it.")
 target.close()
